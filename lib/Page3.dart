@@ -14,7 +14,6 @@ class Page3State extends State<Page3> with TickerProviderStateMixin {
 
 @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     progressController = AnimationController(vsync: this,duration: Duration(milliseconds: 2000));
     animation = Tween<double>(begin: 0,end: this.end).animate(progressController)..addListener((){

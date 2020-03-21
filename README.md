@@ -1,6 +1,6 @@
-# testapp
+# R&D App
 
-A new Flutter application.
+A new Flutter playground for R&D and testing various implementations.
 
 ## Getting Started
 
